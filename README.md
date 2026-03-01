@@ -119,18 +119,15 @@ bcryptjs
 
 🛡️ Protected API endpoints
 
-⚙️ Installation Guide
+⚙️ **Installation Guide**
+
 1️⃣ Clone Repository
 git clone https://github.com/SRIVAISHU07/urban-shield-ai.git
 cd urban-shield-ai
+
 2️⃣ Backend Setup
 cd backend
 npm install
-
-Create .env file inside backend:
-
-PORT=5000
-SECRET=your_secret_key
 
 Run backend:
 
@@ -162,6 +159,7 @@ Username: admin
 Password: admin123
 📁 Project Structure
 urban-portal/
+
 │
 ├── backend/
 │   ├── server.js
