@@ -1,70 +1,195 @@
-# Getting Started with Create React App
+🛡️ **UrbanShield AI Command Center**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+National Infrastructure Intelligence & Risk Prediction Platform
+Built with React + Node + Secure JWT Architecture
 
-## Available Scripts
+🌍 **Overview**
 
-In the project directory, you can run:
+UrbanShield AI is a next-generation Urban Infrastructure Intelligence Dashboard designed to analyze, visualize, and simulate infrastructure risk across major cities.
 
-### `npm start`
+**It combines:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Secure role-based authentication
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Real-time strategic analytics
 
-### `npm test`
+Dynamic risk classification
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Trend intelligence visualization
 
-### `npm run build`
+Professional executive-ready dashboard UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This platform demonstrates how AI-powered systems can assist national infrastructure planning and resilience modeling.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🚀 **Live Architecture**
+Frontend (React)
+      ↓
+JWT Authentication
+      ↓
+Express Backend API
+      ↓
+City Intelligence Engine
+🔐 Security Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**JWT-based authentication**
 
-### `npm run eject`
+Role-based login (Inspector / Admin)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Token-protected API routes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Password hashing using bcrypt
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Environment-based secret management
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+GitHub secret protection compliant
 
-## Learn More
+🧠 **Intelligence Capabilities**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✔ Dynamic city infrastructure scoring
+✔ Risk-level color intelligence system
+✔ 5-year stability trend visualization
+✔ AI-generated strategic summary
+✔ Failure prediction modeling simulation
+✔ Real-time dashboard UI updates
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🎯 **Risk Classification System**
+Risk Level	Visual Indicator
+High	🔴 Red Glow
+Moderate	🟡 Yellow Glow
+Low	🔵 Cyan Glow
 
-### Code Splitting
+Instant intelligence clarity for decision makers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🏙️ **Cities Supported**
 
-### Analyzing the Bundle Size
+Delhi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Mumbai
 
-### Making a Progressive Web App
+Chennai
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Bangalore
 
-### Advanced Configuration
+**Each city includes**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Infrastructure Stability %
 
-### Deployment
+Traffic Load Index
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Failure Prediction Risk
 
-### `npm run build` fails to minify
+Environmental Stress Level
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Strategic AI Recommendation
+
+🖥️ **Tech Stack**
+**Frontend**
+
+React.js
+
+Framer Motion
+
+Recharts
+
+CSS Neon UI System
+
+**Backend**
+
+Node.js
+
+Express.js
+
+JWT
+
+bcryptjs
+
+📊 Features Implemented
+
+🎨 Professional Neon Command Center UI
+
+🔑 Secure Login Page
+
+📈 Animated Stat Cards
+
+📉 Mini Trend Line Graph
+
+📡 Dynamic Risk Glow Engine
+
+🧠 City-specific intelligence engine
+
+🛡️ Protected API endpoints
+
+⚙️ Installation Guide
+1️⃣ Clone Repository
+git clone https://github.com/SRIVAISHU07/urban-shield-ai.git
+cd urban-shield-ai
+2️⃣ Backend Setup
+cd backend
+npm install
+
+Create .env file inside backend:
+
+PORT=5000
+SECRET=your_secret_key
+
+Run backend:
+
+npm start
+
+Backend runs on:
+
+http://localhost:5000
+3️⃣ Frontend Setup
+
+**From root folder:**
+
+npm install
+npm start
+
+**Frontend runs on:**
+
+http://localhost:3000
+🔑 Test Credentials
+
+**Inspector:**
+
+Username: inspector
+Password: Urban@1234
+
+**Admin:**
+
+Username: admin
+Password: admin123
+📁 Project Structure
+urban-portal/
+│
+├── backend/
+│   ├── server.js
+│   └── package.json
+│
+├── src/
+│   ├── App.js
+│   ├── Login.js
+│   ├── CommandCenter.js
+│   ├── ProtectedRoute.js
+│   └── App.css
+│
+├── public/
+└── README.md
+
+
+🧩 **Future Enhancements (Roadmap)**
+
+🌐 Real OpenAI strategic integration
+
+🗺️ 3D Map integration (Mapbox / Leaflet)
+
+🎤 Voice-controlled city selection
+
+📄 Executive PDF export
+
+📊 Live infrastructure heatmap
+
+🔮 Advanced failure prediction model
+
+🌍 Deployment to cloud (Render / Vercel)
